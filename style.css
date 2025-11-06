@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("grabient-grid-1762450620023.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* header */
+
+header {
+  background-color: #eeeeee;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Arial", sans-serif;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e0e0e0;
+  display: flex;
+}
+
+header h1 {
+  text-align: left;
+  color: #007bff;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header nav {
+  text-align: right;
+  margin-left: auto;
+  padding-top: 5px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  display: flex;
+  gap: 15px;
+}
+
+header a {
+  color: #007bff;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+/* main */
+main {
+  margin: 0;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* welcome */
+main .welcome-section {
+  text-align: left;
+  margin: 0;
+  padding: 150px 20px;
+}
+
+main .welcome-section a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+main .welcome-section a:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+}
+
+/* profil */
+main .profile-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .profile-section h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+main .profile-section p {
+  margin-bottom: 10px;
+}
+
+main .profile-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* contact */
+
+main .contact-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .contact-section h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+main .contact-section p {
+  margin-bottom: 10px;
+}
+
+/* about */
+
+main .about-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .about-section h2 {
+  margin-top: 0;
+  color: #222;
+}
+
+main .about-section p {
+  margin-bottom: 10px;
+}
+
+/* general main styles */
+
+main h1,
+main h2 {
+  color: #222;
+  margin-bottom: 10px;
+}
+main p {
+  margin-bottom: 15px;
+}
+main span {
+  font-weight: bold;
+  color: #badfdb;
+}
+main a {
+  color: #007bff;
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #666;
+  font-size: 14px;
+  border-top: 2px solid #e0e0e0;
+  margin-top: 30px;
+}
